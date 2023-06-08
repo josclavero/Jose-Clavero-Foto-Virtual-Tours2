@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Villa La Mina Competa</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<img id="imgDisp" src="img/ 0-parking.png“></img>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-parking">
+        <li class="text">Parking</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-chill-entr-build1">
+        <li class="text">Chill-Entr-Build1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-dinn1-build1">
+        <li class="text">Dinn1-Build1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-dinn2-build1">
+        <li class="text">Dinn2-Build1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-kit1-build1">
+        <li class="text">Kit1-Build1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-wc-build1">
+        <li class="text">WC-Build1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-kit2-build1">
+        <li class="text">Kit2-Build1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-terr-build1">
+        <li class="text">Terr-Build1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-chill">
+        <li class="text">Chill</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-build1-stairs">
+        <li class="text">Build1-Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-apt7-hall">
+        <li class="text">Apt7-Hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-apt7-wc">
+        <li class="text">Apt7-WC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-apt7-room">
+        <li class="text">Apt7-Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-apt7-terr">
+        <li class="text">Apt7-Terr</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-apt8-hall">
+        <li class="text">Apt8-Hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-apt8-wc">
+        <li class="text">Apt8-WC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-apt8-br">
+        <li class="text">Apt8-BR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-apt8-terr1">
+        <li class="text">Apt8-Terr1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-apt8-terr2">
+        <li class="text">Apt8-Terr2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-bbq">
+        <li class="text">BBQ</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-apt-pool-lr">
+        <li class="text">Apt-Pool-LR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-apt-pool-r1">
+        <li class="text">Apt-Pool-R1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-apt-pool-r1-wc">
+        <li class="text">Apt-Pool-R1-WC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-apt-pool-r2">
+        <li class="text">Apt-Pool-R2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-apt-pool-r2-wc">
+        <li class="text">Apt-Pool-R2-WC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-apt-pool-r3">
+        <li class="text">Apt-Pool-R3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-apt-pool-wc">
+        <li class="text">Apt-Pool-WC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-out3-build2">
+        <li class="text">Out3-Build2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-pool">
+        <li class="text">Pool</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-stairs1">
+        <li class="text">Stairs1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-stairs2">
+        <li class="text">Stairs2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-out2-build3">
+        <li class="text">Out2-Build3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-apt1-lr">
+        <li class="text">Apt1-LR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-apt1-r1">
+        <li class="text">Apt1-R1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-apt1-r2">
+        <li class="text">Apt1-R2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-apt1-wc">
+        <li class="text">Apt1-WC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-out3-build3">
+        <li class="text">Out3-Build3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-apt2-lr">
+        <li class="text">Apt2-LR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-apt2-r1">
+        <li class="text">Apt2-R1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-apt2-kit">
+        <li class="text">Apt2-Kit</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-apt2-wc">
+        <li class="text">Apt2-WC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-fl1-build3">
+        <li class="text">Fl1-Build3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-apt3">
+        <li class="text">Apt3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-apt3-kit">
+        <li class="text">Apt3-Kit</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-apt3-terr">
+        <li class="text">Apt3-Terr</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-apt3-wc">
+        <li class="text">Apt3-WC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-apt4-hall">
+        <li class="text">Apt4-Hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-apt4-room">
+        <li class="text">Apt4-Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-apt4-terr">
+        <li class="text">Apt4-Terr</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-apt4-wc">
+        <li class="text">Apt4-WC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-apt5-room">
+        <li class="text">Apt5-Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-apt5-br">
+        <li class="text">Apt5-BR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-apt5-kitch">
+        <li class="text">Apt5-Kitch</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-apt5-wc">
+        <li class="text">Apt5-WC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="54-apt5-terr">
+        <li class="text">Apt5-Terr</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="55-terr1-build3">
+        <li class="text">Terr1-Build3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="56-apt6-room">
+        <li class="text">Apt6-Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="57-apt6-kitch">
+        <li class="text">Apt6-Kitch</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="58-apt6-wc">
+        <li class="text">Apt6-WC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="59-terr2-build3">
+        <li class="text">Terr2-Build3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="60-terr3-build3">
+        <li class="text">Terr3-Build3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="61-terr4-build3">
+        <li class="text">Terr4-Build3</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
